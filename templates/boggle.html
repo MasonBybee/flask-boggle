@@ -1,0 +1,28 @@
+{% extends 'base.html' %} {% block title %}Boggle{% endblock %} {% block content
+%}
+
+<h1>Boggle!</h1>
+<h3 class="score">0</h3>
+<h1 class="timerh1">Timer:</h1>
+<h2 class="timer">60</h2>
+<table>
+  {% for row in game %}
+  <tr>
+    {% for char in row %}
+    <td>{{char}}</td>
+    {% endfor %}
+  </tr>
+  {% endfor %}
+</table>
+<h3 class="guess_result"></h3>
+
+<form class="guessForm" action="">
+  <input type="text" name="guess" maxlength="5" />
+  <button>Guess</button>
+</form>
+
+<form class="restart" action="/boggle">
+  <button>Restart</button>
+</form>
+
+{% endblock %}

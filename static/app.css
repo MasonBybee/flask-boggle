@@ -1,0 +1,71 @@
+h1 {
+  text-align: center;
+  margin: 0;
+}
+
+table {
+  font-size: 2em;
+  top: 15%;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+  border-collapse: collapse;
+}
+tr {
+  margin: 0;
+}
+
+td {
+  margin: 0;
+  display: inline-block;
+  height: 60px;
+  width: 60px;
+  text-align: center;
+  border: 1px solid black;
+}
+
+form {
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+.guess_result {
+  position: absolute;
+  top: 48%;
+  left: 50%;
+  transform: translate(-50%);
+  position: absolute;
+  display: inline-block;
+  text-align: center;
+}
+
+.score {
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%);
+  position: absolute;
+  display: inline-block;
+  text-align: center;
+}
+.timerh1 {
+  text-align: left;
+  position: absolute;
+  top: 15%;
+  left: 30%;
+}
+.timer {
+  text-align: left;
+  position: absolute;
+  top: 17%;
+  left: 33%;
+}
+
+.restart {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+  top: 60%;
+}
